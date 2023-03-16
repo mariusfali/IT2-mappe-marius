@@ -1,6 +1,6 @@
 # IT2-mappe 
 
-![Bilde av UML-diagram](test.png)
+![Bilde av UML-diagram](umleksempel1.png)
 
 ## Emner
 
