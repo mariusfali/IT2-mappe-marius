@@ -12,3 +12,7 @@ For å tegne grafer i Python kan vi bruke biblioteket `matplotlib`.
 
 ## Lage nettsider (HTML/Flask)
 
+
+
+## [Større prosjekt](./implementering/yr-temperatur-plotting.py)
+

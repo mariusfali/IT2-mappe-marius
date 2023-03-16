@@ -13,6 +13,10 @@ data = res.json()
 x = []
 y = []
 gjennomsnitt = []
+verdier = []
+
+gjennomsnitt2 = []
+verdier2 = []
 
 for i in range(len(data["properties"]["timeseries"])):
     x.append(i)
@@ -20,14 +24,28 @@ for i in range(len(data["properties"]["timeseries"])):
     #print(data["properties"]["timeseries"][i]["data"]["instant"]["details"]["air_temperature"])
 
 #print(y)
-current = 1
-for i in range(len(y)):
-    gjennomsnitt.append((y[i]+y[current])/2)
-    current += 1
-print(gjennomsnitt)
+for i in range(1, len(y)):
+    verdier.append(i-1)
+    #print(str(y[i]) + " - " + str(y[i-1]) + " - " + str((y[i]+y[i-1])/2))
+    gjennomsnitt.append((y[i]+y[i-1])/2)
+#print(gjennomsnitt)
 
-#plt.plot(x, gjennomsnitt)
-#plt.plot(x, y)
-#plt.xlabel("Timer fra nå")
-#plt.ylabel("Temperatur")
-#plt.show()
+intervall = 10
+start = -10
+for i in range(8):
+    start += intervall
+    sum = 0
+    for j in range(start, start+intervall):
+        sum += y[j]
+    sum = sum/intervall
+    verdier2.append(start+intervall/2)
+    gjennomsnitt2.append(sum)
+
+
+
+plt.plot(verdier2, gjennomsnitt2)
+plt.plot(verdier, gjennomsnitt)
+plt.plot(x, y)
+plt.xlabel("Timer fra nå")
+plt.ylabel("Temperatur")
+plt.show()
