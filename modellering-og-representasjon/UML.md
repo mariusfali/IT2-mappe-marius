@@ -2,4 +2,9 @@
 
 ## Eksempler
 
-![Bilde av UML-diagram](umleksempel1.png)
+### Eksempel 1
+
+![Bilde av UML-diagram](/umleksempel1.png)
+
+### Eksempel 2
+

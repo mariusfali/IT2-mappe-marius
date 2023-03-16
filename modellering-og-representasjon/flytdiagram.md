@@ -4,6 +4,10 @@ Vi bruker draw.io eller diagrams.net til å lage flydiagrammer for å forklare e
 
 ## Eksempler
 
+### Eksempel 1
+
 ![Bilde av flytdiagram](/flytdiagram3.png)
+
+### Eksempel 2
 
 ![Bilde av flytdiagram](/flytdiagram1.png)
