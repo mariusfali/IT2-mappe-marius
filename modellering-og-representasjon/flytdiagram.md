@@ -4,6 +4,6 @@ Vi bruker draw.io eller diagrams.net til å lage flydiagrammer for å forklare e
 
 ## Eksempler
 
-![Bilde av flytdiagram](flytdiagram3.png)
+![Bilde av flytdiagram](/flytdiagram3.png)
 
-![Bilde av flytdiagram](flytdiagram3.png)
+![Bilde av flytdiagram](/flytdiagram1.png)
