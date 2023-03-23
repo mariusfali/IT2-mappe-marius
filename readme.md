@@ -11,7 +11,7 @@
 - Problemløsning
     - metoder, teknikker og verktøy
     - alternative løsninger
-    - objektorienterte programmer med klasser, arv og objekter
+    - [objektorienterte programmer med klasser, arv og objekter](./probleml%C3%B8sning/objektorienter.md)
 - Modellering og representasjon
     - [objektorienterte modeller som beskriver programstruktur (UML)](./modellering-og-representasjon/UML.md)
     - [representasjon av programflyt med kontrollstrukturer (flytdiagram)](./modellering-og-representasjon/flytdiagram.md)
