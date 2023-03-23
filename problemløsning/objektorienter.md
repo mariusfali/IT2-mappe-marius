@@ -2,6 +2,7 @@
 
 Objektorientere programmer består hovedsakelig av klasser og objekter. I tillegg kan man bruke arv slik at man ikke behøver å skrive samme kode flere ganger. Det er en måte å programmere på som er veldig effektiv for spill og/eller programmer med "ting" som har faste egenskaper (for eksempel brukere, objekter eller noe som trenger struktur). Det handler om funksjonalitet i programmet og at man fokuserer på hvordan "tingene" i programmet funker i forhold til hverandre.
 
+
 ## Klasser
 
 Klasser er det første og mest essensielle i objektorientert programmering. Det er "hovedstrukturen" i programmet. I klassene definerer man både en `__init__` som er konstruktøren, men også en `self` og eventuelt andre variabler man ønsker å ha med i klassen. Man kan også ha andre metoder som for eksempel `__str__` eller `def hva_enn_du_vil(self)` som spiller hver sin rolle i programmets helhet.
@@ -45,6 +46,7 @@ class Planet():
         return f"Navn: {self.navn}, Radius: {self.radius} km, Avstand fra sola: {self.avstand} millioner km"
 ```
 
+
 ## Arv
 
 Arv er noe som kan brukes i objektorientert programmering for å gjenbruke tidligere kode og unngå å skrive samme kode flere ganger. Det er effektivt for å spare tid, og det får koden til å se mer ryddig ut. Det er ikke nødvendig, men sterkt anbefalt dersom man har store programmer med mye repetisjon
@@ -79,6 +81,7 @@ class Faglaerer(Laerer):
         pass
 ```
 
+
 ## Objekter
 
 Objekter er det man lager med klassene, det "fysiske" objektet. Disse brukes da som faktiske ting i programmet som har direkte funksjoner eller hensikter, ofte for å representere noe eller noen. Objekter kan også endres og krysses på tvers, og man kan bruke informasjonen i ett objekt til å endre eller lage et annet objekt. Objekter lagres i minnet og tar plass.
@@ -89,7 +92,7 @@ Objekter er det man lager med klassene, det "fysiske" objektet. Disse brukes da 
 fredrik = Faglaerer("fredrikg@viken.no", "Fredrik", "Gade", 5432344920)
 ```
 
-## Eksempel 2
+### Eksempel 2
 
 ```python
 jorda = Planet("Jorda", 6371, 149.87)
