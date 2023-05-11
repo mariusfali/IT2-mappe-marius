@@ -75,4 +75,4 @@ print(finn_gjennomsnittet([1,4,72,6,3]))
 print(finn_gjennomsnittet([1,2,3,4]))
 ```
 
-## [Bruk i større program](/../../Skole/vg2/IT1/Prosjekt%20flask/app.py)
+## [Bruk i større program](../../../Skole/vg2/IT1/Prosjekt%20flask/app.py)
