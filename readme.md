@@ -17,6 +17,5 @@
     - brukervennlighet i programmer
 - Implementering
     - løsninger med programmering
-    - gjenbrukbar kode
-    - [innhente, analysere og presentere data](./implementering/presentere-data.md)
+    - [gjenbrukbar kode](./implementering/gjenbrukbar.md)
     - [vern mot kjøretidsfeil og logiske feil i programmer](./implementering/feilhaandtering.md)
