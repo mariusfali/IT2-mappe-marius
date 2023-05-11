@@ -82,10 +82,11 @@ while running:
                 spiller.x += 10 
     else:
         screen.fill("purple")
+        pg.draw.rect(screen, "white", (200, 400, 100, 50))
         font = pg.font.SysFont('Corbel', 23, True) 
         death_tekst = font.render(f"Game Over", True, (255, 255, 255))
         screen.blit(death_tekst, (200, 230))
-        play_tekst = font.render(f"Try again", True, (255, 255, 255))
+        play_tekst = font.render(f"Try again", True, (0, 0, 0))
         screen.blit(play_tekst, (200, 400))
 
         for event in pg.event.get():

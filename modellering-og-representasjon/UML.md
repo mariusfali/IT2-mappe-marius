@@ -8,3 +8,4 @@
 
 ### Eksempel 2
 
+![Bilde av UML-diagram](umleksempel2.png)
