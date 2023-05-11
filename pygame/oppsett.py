@@ -88,12 +88,14 @@ while running:
         screen.blit(death_tekst, (200, 230))
         play_tekst = font.render(f"Try again", True, (0, 0, 0))
         screen.blit(play_tekst, (200, 400))
+        clock.tick(1)
 
         for event in pg.event.get():
                 if event.type == pg.MOUSEBUTTONDOWN:
                     if 200 <= mousepos[0] <= 300 and 400 <= mousepos[1] <= 450:
+                        hindre.clear()
                         lives = 3
-                        print("du trykket")
+                        
 
 
     # LAG SPILLET DIT HER:

@@ -14,7 +14,7 @@
 - Modellering og representasjon
     - [objektorienterte modeller som beskriver programstruktur (UML)](./modellering-og-representasjon/UML.md)
     - [representasjon av programflyt med kontrollstrukturer (flytdiagram)](./modellering-og-representasjon/flytdiagram.md)
-    - brukervennlighet i programmer
+    - [brukervennlighet i programmer](./modellering-og-representasjon/brukervennlighet.md)
 - Implementering
     - løsninger med programmering
     - [gjenbrukbar kode](./implementering/gjenbrukbar.md)
