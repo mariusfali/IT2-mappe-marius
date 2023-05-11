@@ -8,4 +8,4 @@
 
 ### Eksempel 2
 
-![Bilde av UML-diagram](umleksempel2.png)
+![Bilde av UML-diagram](/umleksempel2.png)
